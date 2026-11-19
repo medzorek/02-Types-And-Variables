@@ -1,0 +1,55 @@
+02-TypesAndVariables - Odpowiedzi teoretyczne (1.2, 2.1, 2.2, 2.3, 3.1)
+
+1.2. Tryb interaktywny:
+1. 7 + 4 -> 11
+2. (30 + 10) / 2 -> 20.0
+3. 2 ** 3 -> 8
+4. 7 > 5 -> True
+5. r = 4
+6. area = 3.14159 * r * r
+7. area -> 50.26544
+8. round(area, 2) -> 50.27
+9. first_name = "Mary"
+10. last_name = "Brown"
+11. full_name = first_name + ' ' + last_name
+12. full_name -> 'Mary Brown'
+13. print(full_name) -> Mary Brown
+14. len(full_name) -> 10
+15. a = 5; h = 4; area = 0.5 * a * h; print(area) -> 10.0
+16. avg = (7 + 12 + 31) / 3; print(round(avg, 2)) -> 16.67
+
+2.1. Operatory:
++  : dodawanie (lub konkatenacja napisow)
+*  : mnozenie (lub powielanie napisu)
+** : potegowanie
+/  : dzielenie zmiennoprzecinkowe (zwraca float)
+// : dzielenie calkowite (zaokraglone w dol)
+%  : reszta z dzielenia (modulo)
+>  : wieksze niz (zwraca bool)
+<= : mniejsze lub rowne (zwraca bool)
+
+2.2. Liczba operatorow, argumentow i wartosci wyrazen:
+1. 3 * 2 + 1 -> 2 operatory, 3 argumenty, wynik: 7
+2. 5 + 10 * 5 -> 2 operatory, 3 argumenty, wynik: 55
+3. 4 + 4 / 2 ** 2 -> 3 operatory, 4 argumenty, wynik: 5.0
+4. 4 % 3 % 2 % 1 -> 3 operatory, 4 argumenty, wynik: 0
+5. 1 + 2 % 3 ** 4 * 5 -> 4 operatory, 5 argumentow, wynik: 11
+6. True != False -> 1 operator, 2 argumenty, wynik: True
+
+2.3. Typy danych:
+1. 50 -> int
+2. 149.17 -> float
+3. 4 * 7 -> int
+4. 4.0 * 7 -> float
+5. "Krakow University of Economics" -> str
+6. True -> bool
+7. 2 > 5 -> bool
+
+3.1. Analiza zmiennych (7 zmiennych):
+- company: "ABC Data" (str)
+- phone: "555-123-009" (str)
+- employees: 25 (int)
+- remote_work: True (bool)
+- big_company: False (bool)
+- income: 4500000 (int)
+- income_per_person: 180000.0 (float)

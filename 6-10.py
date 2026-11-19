@@ -1,0 +1,23 @@
+###
+# String manipulation
+#
+
+movie = "The Lord of the Rings: The Return of the King"
+
+# print number of characters
+print('Number of characters: ', len(movie))
+
+# print title in capital letters
+print('Upper: ', movie.upper())
+
+# print title in small letters
+print('Lower: ', movie.lower())
+
+# print how many times the vowel "e" appears in the title
+print('Count of e: ', movie.count('e'))
+
+# print where in the text is the word "Lord"
+print('Index of Lord: ', movie.find('Lord'))
+
+# print where in the text is the word "dragon"
+print('Index of dragon: ', movie.find('dragon'))
